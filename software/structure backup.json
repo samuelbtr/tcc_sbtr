@@ -1,0 +1,10 @@
+{
+  "ACUSB": {"config": "1",
+            "ids": ["1"],
+            "ACUPI": {"config": "2",
+                      "ids": ["2"]},
+            "ACULUM": {"config": "3",
+                      "ids": ["3"]}}
+}
+
+{"1": {"type": "ACUSB", "config": "1", "2": {"type": "ACUPI", "config": "2"}, "3": {"type": "ACULUM", "config": "3"}}}
