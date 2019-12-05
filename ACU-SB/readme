@@ -1,1 +1,1 @@
-
+python3 core.py & python3 UMA_wifi.py & python3 ACUMETER.py & python3 UMA_measurements.py & python3 translate.py

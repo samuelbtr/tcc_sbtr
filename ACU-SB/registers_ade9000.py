@@ -1,0 +1,91 @@
+'''************************Registradores de calibração**************************'''
+
+cali_regs = {}
+cali_regs["ADDR_AVGAIN"] = 0x00b
+cali_regs["ADDR_BVGAIN"] = 0x02b
+cali_regs["ADDR_CVGAIN"] = 0x04b
+
+cali_regs["ADDR_AVRMSOS"] = 0x00d
+cali_regs["ADDR_BVRMSOS"] = 0x02d
+cali_regs["ADDR_CVRMSOS"] = 0x04d
+
+cali_regs["ADDR_AVRMS1012OS"] = 0x017
+cali_regs["ADDR_BVRMS1012OS"] = 0x037
+cali_regs["ADDR_CVRMS1012OS"] = 0x057
+
+cali_regs["ADDR_AIGAIN"] = 0x000
+cali_regs["ADDR_BIGAIN"] = 0x020
+cali_regs["ADDR_CIGAIN"] = 0x040
+
+cali_regs["ADDR_AIRMSOS"] = 0x00c
+cali_regs["ADDR_BIRMSOS"] = 0x02c
+cali_regs["ADDR_CIRMSOS"] = 0x04c
+
+cali_regs["ADDR_AIRMS1012OS"] = 0x018
+cali_regs["ADDR_BIRMS1012OS"] = 0x038
+cali_regs["ADDR_CIRMS1012OS"] = 0x058
+
+cali_regs["ADDR_APGAIN"] = 0x00e
+cali_regs["ADDR_BPGAIN"] = 0x02e
+cali_regs["ADDR_CPGAIN"] = 0x04e
+
+cali_regs["ADDR_APHCAL0"] = 0x006
+cali_regs["ADDR_BPHCAL0"] = 0x026
+cali_regs["ADDR_CPHCAL0"] = 0x046
+
+cali_regs["ADDR_AWATTOS"] = 0x00f
+cali_regs["ADDR_BWATTOS"] = 0x02f
+cali_regs["ADDR_CWATTOS"] = 0x04f
+
+cali_regs["ADDR_AVAROS"] = 0x010
+cali_regs["ADDR_BVAROS"] = 0x030
+cali_regs["ADDR_CVAROS"] = 0x050
+
+
+'''************************Registradores para calculo de calibração**************************'''
+
+ADDR_AVRMS = 0x20d
+ADDR_AVRMS1012 = 0x0000021C
+ADDR_AIRMS = 0x20c
+ADDR_AIRMS1012 = 0x0000021B
+ADDR_APF = 0x00000216
+ADDR_AWATT = 0x00000210
+ADDR_AVA = 0x00000212
+ADDR_AVAR = 0x00000211
+ADDR_AWATTHR_HI = 0x000002E7
+ADDR_AVARHR_HI = 0x2f1
+ADDR_AVAHR_HI = 0x000002FB
+
+ADDR_BVRMS = 0x22d
+ADDR_BVRMS1012 = 0x0000023C
+ADDR_BIRMS = 0x22c
+ADDR_BIRMS1012 = 0x0000023B
+ADDR_BPF = 0x00000236
+ADDR_BWATT = 0x00000230
+ADDR_BVA = 0x00000232
+ADDR_BVAR = 0x00000231
+ADDR_BWATTHR_HI = 0x00000323
+ADDR_BVARHR_HI = 0x32d
+ADDR_BVAHR_HI = 0x00000337
+
+ADDR_CVRMS = 0x24d
+ADDR_CVRMS1012 = 0x0000025C
+ADDR_CIRMS = 0x24c
+ADDR_CIRMS1012 = 0x0000025B
+ADDR_CPF = 0x00000256
+ADDR_CWATT = 0x00000250
+ADDR_CVA = 0x00000252
+ADDR_CVAR = 0x00000251
+ADDR_CWATTHR_HI = 0x0000035F
+ADDR_CVARHR_HI = 0x369
+ADDR_CVAHR_HI = 0x00000373
+
+'''**********************DEFINED TO MEASURE CURRENTS ABOVE 3000 AMPS***********************'''
+ADDR_PGA = 0x000004B9
+ADDR_CNFG0 = 0x60
+ADDR_DICOEFF = 0x072
+
+ADDR_ACCMODE = 0x00000492
+ADDR_EGY_TIME = 0x000004B2
+ADDR_EP_CFG = 0x000004B0
+ADDR_RUN = 0x00000480

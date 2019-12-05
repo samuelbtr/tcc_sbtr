@@ -1,0 +1,12 @@
+{
+  "FT_MULTI_TP": 1,
+  "FE_IRMS": 3000,
+  "FS": 1,
+  "timepub": 1,
+  "id": "1",
+  "port": 1883,
+  "ssid_name": "LSE",
+  "ssid_key": "HubLS3s2",
+  "online": "1",
+  "broker": "192.168.10.112"
+}
